@@ -1,0 +1,17 @@
+[project]
+name = "comfyui-multishot-plan"
+description = "Generate multiple Krea 2 identity-locked stills from one reference sheet — one image prompt per shot, saved to ComfyUI input/ for LTX Director or other I2V workflows."
+version = "1.0.0"
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/CodingWithShahzaib/comfyui-multishot-plan"
+"Bug Tracker" = "https://github.com/CodingWithShahzaib/comfyui-multishot-plan/issues"
+
+[tool.comfy]
+PublisherId = "codingwithshahzaib"
+DisplayName = "Krea Multi-Shot Stills"
+includes = []
